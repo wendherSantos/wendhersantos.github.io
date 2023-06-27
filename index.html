@@ -14,22 +14,34 @@
   <link href="css/bootstrap-theme.css" rel="stylesheet">
   <link rel="stylesheet" href="css/swiper.min.css">
   <link href="css/style.css" rel="stylesheet">
-  <link rel="icon" type="image/png" href="assets/eu.png"
-
+  <link rel="icon" type="image/png" href="assets/eu.png">
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700|Open+Sans:300,400,700"
     rel="stylesheet">
 
-
   <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
   <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
   <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-      <![endif]-->
+  <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+  <![endif]-->
 </head>
 
 <body>
+  <style>
+    /* Ocultar a barra de rolagem */
+    body::-webkit-scrollbar {
+      width: 0em;
+    }
+  
+    body::-webkit-scrollbar-track {
+      background-color: transparent;
+    }
+  
+    body::-webkit-scrollbar-thumb {
+      background-color: transparent;
+    }
+  </style>  
   <header class="hero">
     <div class="container">
       <div class="row">
@@ -54,23 +66,22 @@
             </ul>
           </nav>
           <!-- <a href="#" class="menu"><img src="assets/menu.png"></a> -->
-          <div class="hero-text">
+          <div class="hero-text" style="text-align: right;">
             <h1><span>Olá, Eu sou o</span><br>Wendher :)</h1>
-            <h3 style="text-align: right;">Software Engineering Student</h3>
-            <h3 style="text-align: right;">Entusiasta em Python</h3>
-            <h3 style="text-align: right;">Futuro Data Scientist</h3>
+            <h3>Software Engineering Student</h3>
+            <h3>Entusiasta em Python</h3>
+            <h3>Futuro Data Scientist</h3>
             <a href="https://onedrive.live.com/?authkey=%21AGHrhmZxvS2vDCY&id=BF88F3DF11F82872%2120725&cid=BF88F3DF11F82872&parId=root&parQt=sharedby&o=OneUp"
-              class="btn btn-lg btn-primary mr-400" style="text-align: right;" target="_blank">Download CV</a>
+              class="btn btn-lg btn-primary mr-400" target="_blank">Download CV</a>
             <ul class="social-links">
-              <li class="label">Me encontre aqui:</li>
-              <li><a href="https://www.instagram.com/wendhergs/" target="_blank"><img
-                    src="assets/instagram-logo.png"></a></li>
+              <li class="label"></li>
+              <li><a href="https://www.instagram.com/wendhergs/" target="_blank"><img src="assets/instagram-logo.png"></a></li>
               <li><a href="https://wa.link/7hkkv8" target="_blank"><img src="assets/whatsapp.png"></a></li>
-              <li><a href="https://www.linkedin.com/in/wendher-santos" target="_blank"><img
-                    src="assets/linkedin.png"></a></li>
+              <li><a href="https://www.linkedin.com/in/wendher-santos" target="_blank"><img src="assets/linkedin.png"></a></li>
               <li><a href="https://github.com/wendherSantos" target="_blank"><img src="assets/github.png"></a></li>
             </ul>
           </div>
+          
         </div>
       </div>
     </div>
@@ -80,41 +91,43 @@
     <!-- <div class="container"> -->
     <!-- <div class="row">
       <div class="col-md-12"> -->
-        <h4 class="sub-heading text-center">Atualmente</h4>
-        <h1 class="heading purple text-center"><span class="purple">sobre</span> mim <br></h1>
-        <!-- Swiper -->
-        <div class="swiper-container client-swiper">
-          <div class="swiper-wrapper">
-            <div class="swiper-slide client-box">
-              <img src="assets/python.gif" class="client-logo">
-              <br>
-              <p class="text-left tag"></p>
-              <h3 class="te t-left title">
-                No momento, estou focando exclusivamente em aprimorar minhas habilidades em <b>Python</b>, tornando-o minha
-                linguagem de programação principal.</h3>
-              <!-- <p class="text-left"><a
+    <h4 class="sub-heading text-center">Atualmente</h4>
+    <h1 class="heading purple text-center"><span class="purple">sobre</span> mim <br></h1>
+    <!-- Swiper -->
+    <div class="swiper-container client-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide client-box">
+          <img src="assets/python.gif" class="client-logo">
+          <br>
+          <p class="text-left tag"></p>
+          <h3 class="te t-left title">
+            No momento, estou focando exclusivamente em aprimorar minhas habilidades em <b>Python</b>, tornando-o minha
+            linguagem de programação principal.</h3>
+          <!-- <p class="text-left"><a
                   href="https://github.com/wendherSantos?tab=repositories&q=&type=&language=python&sort="
                   target="_blank">&#8594;</a></p> -->
-            </div>
-            <div class="swiper-slide client-box">
-              <img src="assets/giphy.gif" class="client-logo">
-              <p class="text-left tag"></p>
-              <h3 class="text-left title">Apaixonado por dados desde os 19 anos e estudante de <b>Engenharia de Software</b> na
-                Universidade Unicesumar. Adoro desafios que me tiram da zona de conforto, pois é neles que encontro as
-                maiores evoluções e aprendizados. Estudante comprometido, aprecio café e tenho hobbies como animes, corrida e leitura.</h3>
-              <!-- <p class="text-left"><a
+        </div>
+        <div class="swiper-slide client-box">
+          <img src="assets/giphy.gif" class="client-logo">
+          <p class="text-left tag"></p>
+          <h3 class="text-left title">Apaixonado por dados desde os 19 anos e estudante de <b>Engenharia de Software</b>
+            na
+            Universidade Unicesumar. Adoro desafios que me tiram da zona de conforto, pois é neles que encontro as
+            maiores evoluções e aprendizados. Estudante comprometido, aprecio café e tenho hobbies como animes, corrida
+            e leitura.</h3>
+          <!-- <p class="text-left"><a
                   href="https://onedrive.live.com/?authkey=%21AGHrhmZxvS2vDCY&id=BF88F3DF11F82872%2120725&cid=BF88F3DF11F82872&parId=root&parQt=sharedby&o=OneUp"
                   target="_blank"">&#8594;</a></p> -->
-                  </div>
-                  <div class=" swiper-slide client-box">
-                  <img src="assets/R.gif" class="client-logo">
-                  <p class="text-left tag"></p>
-                  <h3 class="text-left title">Meu objetivo é me tornar um futuro <b>Cientista de Dados</b>, com um conhecimento
-                    avançado em Python e em bancos de dados, tanto em ambientes de nuvem quanto em configurações
-                    tradicionais. Aspirando criar aplicações que transformem significativamente meu trabalho e tenham um
-                    impacto <b>positivo</b> no mundo.</h3>
-                  <!-- <p class="text-left"><a href="#">Know More &#8594;</a></p> -->
-                  <!-- </div>
+        </div>
+        <div class=" swiper-slide client-box">
+          <img src="assets/R.gif" class="client-logo">
+          <p class="text-left tag"></p>
+          <h3 class="text-left title">Meu objetivo é me tornar um futuro <b>Cientista de Dados</b>, com um conhecimento
+            avançado em Python e em bancos de dados, tanto em ambientes de nuvem quanto em configurações
+            tradicionais. Aspirando criar aplicações que transformem significativamente meu trabalho e tenham um
+            impacto <b>positivo</b> no mundo.</h3>
+          <!-- <p class="text-left"><a href="#">Know More &#8594;</a></p> -->
+          <!-- </div>
                   <div class="swiper-slide client-box">
                     <img src="assets/logo-1.png" class="client-logo">
                     <h3 class="text-left title">Visual identity for upsidedown</h3>
@@ -127,15 +140,72 @@
                     <p class="text-left tag">Branding, UI, Website</p>
                     <p class="text-left"><a href="#">Know More &#8594;</a></p>
                   </div>
-                </div> -->
+                </div>
 
             </div>
             <!-- Add Arrows -->
-            <div class="swiper-button-next"></div>
-            <div class="swiper-button-prev"></div>
-          </div>
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
         </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- projetos -->
+  <section class="case-study">
+    <!-- <div class="container"> -->
+    <!-- <div class="row">
+      <div class="col-md-12"> -->
+    <h4 class="sub-heading text-center">desenvolvimento</h4>
+    <h1 class="heading purple text-center"><span class="purple">meus</span> projetos <br></h1>
+    <!-- Swiper -->
+    <div class="swiper-container client-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide client-box">
+          <img src="assets/sonic.gif" class="client-logo">
+          <br>
+          <p class="text-left tag"></p>
+          <h3 class="te t-left title">em breve...</h3>
+          <!-- <p class="text-left"><a
+                  href="https://github.com/wendherSantos?tab=repositories&q=&type=&language=python&sort="
+                  target="_blank">&#8594;</a></p> -->
         </div>
+        <div class="swiper-slide client-box">
+          <img src="assets/waiting.gif" class="client-logo">
+          <p class="text-left tag"></p>
+          <h3 class="text-left title">em breve...</h3>
+          <!-- <p class="text-left"><a
+                  href="https://onedrive.live.com/?authkey=%21AGHrhmZxvS2vDCY&id=BF88F3DF11F82872%2120725&cid=BF88F3DF11F82872&parId=root&parQt=sharedby&o=OneUp"
+                  target="_blank"">&#8594;</a></p> -->
+        </div>
+        <div class="swiper-slide client-box">
+          <img src="assets/azul.gif" class="client-logo">
+          <p class="text-left tag"></p>
+          <h3 class="text-left title">em breve...</h3>
+          <!-- <p class="text-left"><a href="#">Know More &#8594;</a></p> -->
+          <!-- </div>
+                  <div class="swiper-slide client-box">
+                    <img src="assets/logo-1.png" class="client-logo">
+                    <h3 class="text-left title">Visual identity for upsidedown</h3>
+                    <p class="text-left tag">Branding, UI, Website</p>
+                    <p class="text-left"><a href="#">Know More &#8594;</a></p>
+                  </div>
+                  <div class="swiper-slide client-box">
+                    <img src="assets/logo-2.png" class="client-logo">
+                    <h3 class="text-left title">Visual identity for upsidedown</h3>
+                    <p class="text-left tag">Branding, UI, Website</p>
+                    <p class="text-left"><a href="#">Know More &#8594;</a></p>
+                  </div>
+                </div>
+
+            </div>
+            <!-- Add Arrows -->
+          <div class="swiper-button-next"></div>
+          <div class="swiper-button-prev"></div>
+        </div>
+      </div>
+    </div>
   </section>
 
   <section class="testimonial">

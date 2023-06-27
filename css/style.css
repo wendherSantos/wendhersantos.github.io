@@ -135,7 +135,7 @@ ul.social-links li a img {
 .case-study .col-md-12 {
   transform: translateY(-80px);
   -webkit-transform: translateY(-80px);
-  padding: 5em 3em;
+  padding: 5em 4em;
   background-color: #fff;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.15);
 }
@@ -259,13 +259,13 @@ h1.heading.pink:after {
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
   background-image: url(../assets/arrow-right.png);
-  right: -1000px;
+  right: -100000px;
 }
 
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
   background-image: url(../assets/arrow-left.png);
-  left: -1000px;
+  left: -100000px;
 }
 
 
