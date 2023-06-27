@@ -98,13 +98,14 @@ header.hero h1 {
 
 header.hero h1 span,
 header.hero h3 {
-  line-height: 0.4em; /* ajustar distancia entre as linhas*/
+  line-height: 0.4em;
+  /* ajustar distancia entre as linhas*/
   font-weight: 0em;
 }
 
 /* Botão */
 header.hero .btn {
-  margin: 1.5em 10em;
+  margin: 1.5em 0em;
 }
 
 ul.social-links li {
@@ -161,7 +162,8 @@ h1.heading {
 h1.heading span {
   font-weight: 600;
 }
- /* linha */
+
+/* linha */
 /* h1.heading:after {
   content: '';
   display: block;
@@ -186,16 +188,18 @@ h1.heading.pink:after {
 .swiper-container {
   width: 100%;
   height: 100%;
-  padding: 3em 1em; /* ajustar tamanho do bloco */
+  padding: 3em 1em;
+  /* ajustar tamanho do bloco */
 }
 
 .swiper-slide {
-  font-size: 18px; /* ajustar tamanho dos titulos do bloco */
+  font-size: 18px;
+  /* ajustar tamanho dos titulos do bloco */
   background: #8b3f3f;
 }
 
 .client-box {
-  background-color: #bd615e;
+  background-color: #ca504c;
   box-shadow: 0 0 100px rgba(0, 0, 0, 0.03);
   padding: 1em .6em;
   border-radius: 20px;
@@ -259,13 +263,13 @@ h1.heading.pink:after {
 .swiper-button-next,
 .swiper-container-rtl .swiper-button-prev {
   background-image: url(../assets/arrow-right.png);
-  right: -10px;
+  right: -134340px;
 }
 
 .swiper-button-prev,
 .swiper-container-rtl .swiper-button-next {
   background-image: url(../assets/arrow-left.png);
-  left: -1290px;
+  left: -12290px;
 }
 
 
@@ -645,5 +649,20 @@ ul.main-nav.show-it {
 
   .footer {
     padding: 1em 0em;
+  }
+}
+
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s ease-in-out forwards;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: ;
+  }
+
+  100% {
+    opacity: 1;
   }
 }
